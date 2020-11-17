@@ -9,7 +9,10 @@ body {
 	min-width: 950px;
 	padding: 0;
 }
-
+.mundoeco
+{animation-duration: 3s;
+  animation-name: slidein;
+}
 a {
 	outline: none;
 }
@@ -44,7 +47,7 @@ p a {
 
 #header div div#navigation {
 	background: url(../images/bg-navigation-right-curve.gif) no-repeat right top;
-	
+
 	font-family: 'CarterOneRegular';
 	float: right;
 	height: auto;
@@ -88,7 +91,7 @@ p a {
 	text-shadow: 1px 1px 0 #efd9c4;
 }
 
-#header div div#navigation div ul li.current a, 
+#header div div#navigation div ul li.current a,
 #header div div#navigation div ul li a:hover {
 	color: #2e5306;
 	text-shadow: 1px 1px 0 #f2fcd9;
@@ -174,7 +177,7 @@ p a {
 	width: 612px;
 }
 
-#content div#section div#figure img, 
+#content div#section div#figure img,
 #content div div img, #content div#featured ul li img {
 	border: 3px solid #fff;
 }
@@ -463,7 +466,7 @@ p a {
     vertical-align: sub;
 }
 
-#content div table tr td label input#newsletter, 
+#content div table tr td label input#newsletter,
 #content div table tr td label input#terms,
 #content div form div fieldset div label input#newsletter,
 #content div form div fieldset div label input#terms,
@@ -624,8 +627,8 @@ p a {
 #footer div div div a {
 	display: inline-block;
 	height: 63px;
-	margin-left: 44px; 
-	padding-top: 10px;	
+	margin-left: 44px;
+	padding-top: 10px;
 	width: 63px;
 }
 
@@ -635,11 +638,11 @@ p a {
 }
 
 #footer div div div a.twitter {
-	background: url(../images/sprites-icon.gif) no-repeat 0 -137px;	
+	background: url(../images/sprites-icon.gif) no-repeat 0 -137px;
 }
 
 #footer div div div a.linked-in {
-	background: url(../images/sprites-icon.gif) no-repeat 0 -63px;	
+	background: url(../images/sprites-icon.gif) no-repeat 0 -63px;
 }
 
 #footer div div form {
